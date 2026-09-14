@@ -1,2 +1,74 @@
 # algorithm-python
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+
+코딩 테스트 문제 풀이 저장소
+
+<br>
+
+## 🗂 디렉터리 구조
+
+```
+algorithm-python/
+├── programmers/
+│   └── <레벨>/
+│       └── <문제명>/
+│           ├── solution.py     # 제출 코드
+│           └── README.md       # 문제 설명 (자동 생성)
+├── .gitignore
+└── README.md
+```
+
+<br>
+
+## 📊 진행 현황
+
+| 플랫폼       | 레벨    | 풀이 수 |
+| :----------- | :------ | ------: |
+| 프로그래머스 | Level 1 |       0 |
+| 프로그래머스 | Level 2 |       0 |
+| 프로그래머스 | Level 3 |       0 |
+| **합계**     |         |   **0** |
+
+<br>
+
+## 🧩 유형별 정리
+
+| 유형             | 문제 수 | 비고 |
+| :--------------- | ------: | :--- |
+| 해시             |       0 |      |
+| 정렬             |       0 |      |
+| 완전 탐색        |       0 |      |
+| 탐욕법 (Greedy)  |       0 |      |
+| DFS / BFS        |       0 |      |
+| 동적 계획법 (DP) |       0 |      |
+| 이분 탐색        |       0 |      |
+
+<br>
+
+## 📝 학습 규칙
+
+1. 1일 2문제를 기본 단위로 한다.
+2. 30분간 자력으로 시도한 후, 해결되지 않으면 타인의 풀이를 참고한다.
+3. 참고한 문제는 익일에 아무것도 보지 않고 재풀이한다.
+4. 각 문제의 `README.md`에 막혔던 지점과 개선 방향을 기록한다.
+
+<br>
+
+## 🛠 주요 활용 라이브러리
+
+| 모듈          | 용도                              |
+| :------------ | :-------------------------------- |
+| `collections` | `Counter`, `defaultdict`, `deque` |
+| `heapq`       | 우선순위 큐                       |
+| `bisect`      | 정렬된 배열의 이분 탐색           |
+| `itertools`   | 순열, 조합, 곱집합                |
+| `math`        | 최대공약수, 조합 계산             |
+
+<br>
+
+---
+
+<div align="center">
+
+**Hanhui Hong** · [@HHHv-v](https://github.com/HHHv-v)
+
+</div>
