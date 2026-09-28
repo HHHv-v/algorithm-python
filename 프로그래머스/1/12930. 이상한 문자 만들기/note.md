@@ -8,6 +8,26 @@
 시간 복잡도
 O(n)
 
+처음 풀이
+```python
+ s = s.split(" ")
+    answer=[]
+
+    for word in s:
+        if word==" ":
+            answer.append(" ")
+        else:
+            for i in range(len(word)):
+                word=list(word)
+                if i%2==0:
+                    word[i]=word[i].upper()
+                else:
+                    word[i]=word[i].lower()
+
+            answer.append("".join(word)) 
+
+    return " ".join(answer)
+```
 막힌 지점
 - split()과 split(" ")의 차이를 몰라 한참 헤맴.
   split(" ")는 공백 1개마다 자르고 구분자는 결과에서 사라진다.
