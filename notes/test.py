@@ -1,1 +1,3 @@
-print(ord('a'))
+print("a  b".split())
+print("a b".split(" "))
+print("a   b".split(" "))
