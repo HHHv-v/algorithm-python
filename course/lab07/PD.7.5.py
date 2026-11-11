@@ -9,4 +9,3 @@ for _ in range(q):
     end=bisect_right(values,right)
     print(end-start)
     
-    

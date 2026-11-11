@@ -1,12 +1,15 @@
-def selection_sort(values):
-    result = values[:] # 원본 보호용 복사
-    for start in range(len(result)-1):
-        min=start
-        for index in range(start+1,len(result)):
-            if result[index] < result[min]:
-                min=index
-        result[start],result[min]=result[min],result[start]
-        
-    return result
+def binary_search(values,target):
+    low=0
+    high=len(values)-1
+    while low<=high:
+        middle=(low+high)//2
+        if values[middle]==target:
+            return target
+        elif middle>high:
+            low=middle+1
+        else:
+            high=middle-1
+    return -1
 
-print(selection_sort([7,4,9,2]))
+            
+            

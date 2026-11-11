@@ -11,3 +11,4 @@ ordered=sorted(students,key=lambda item:(-item[1],item[2],item[0]))
 for name in ordered:
     print(name[0])
     
+    
