@@ -20,6 +20,7 @@ algorithm-python/
 │   ├── list.md                  # 리스트, zip, 튜플
 │   ├── dict-set.md              # 딕셔너리, 집합
 │   ├── function.md              # 함수, lambda, 재귀
+│   ├── heapq.md                 # 힙(heapq), 우선순위 큐
 │   ├── method-vs-function.md    # 메서드와 내장 함수
 │   └── time-complexity.md       # 시간 복잡도
 ├── course/                      # 수업 실습 (COMP0333, lab01~)
