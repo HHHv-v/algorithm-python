@@ -1,13 +1,8 @@
 # 파이썬은 스택 자료형이 없어서 list를 스택처럼 사용
 def solution(s):
     stack=[]
-    arr=list(s)
     
-    # 1) 괄호가 )로 시작할때 F
-    if arr[0] != "(":
-        return False
-    
-    for i in arr:
+    for i in s:
         if i == "(":
             stack.append(i)
         else:
